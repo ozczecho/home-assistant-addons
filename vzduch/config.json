@@ -1,0 +1,27 @@
+{
+    "name": "Vzduch Dotek",
+    "version": "1.6.5",
+    "slug": "vzduch_dotek",
+    "description": "Vzduch Dotek Api",
+    "arch": [ "amd64" ],
+    "url":"https://github.com/ozczecho/vzduch-dotek",
+    "webui": "http://[HOST]:[PORT:5353]/api/aircons",
+    "startup": "application",
+    "boot": "auto",
+    "ports": {
+        "5353/tcp": 5353
+    },
+    "ports_description": {
+        "5353/tcp": "Web Api"
+    },
+    "options": {
+        "airtouch_ip": "192.168.80.21",
+        "airtouch_port": 8899,
+        "logLevel": "Information"
+    },
+    "schema": {
+        "airtouch_ip": "str",
+        "airtouch_port": "int",
+        "logLevel": "str"
+    }
+}
