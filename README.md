@@ -8,4 +8,4 @@ https://github.com/ozczecho/home-assistant-addons
 
 ## Addons
 
-
+* [Vzduch](https://github.com/ozczecho/home-assistant-addons/tree/main/vzduch) - API interface to the Airtouch 3 controller.
