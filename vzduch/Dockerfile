@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 
 ARG VZDUCH_VERSION
 
@@ -20,7 +20,7 @@ RUN dotnet publish -c release -o /app -r linux-x64 --self-contained true --no-re
 # final stage/image
 FROM $BUILD_FROM
 
-MAINTAINER Mike <ozczecho@yahoo.com>
+LABEL Mike <ozczecho@yahoo.com>
 
 COPY --from=build /app .
 EXPOSE 5353
