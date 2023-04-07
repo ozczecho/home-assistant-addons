@@ -1,3 +1,7 @@
+# 1.7.1
+
+* Fix the "s6-overlay-suexec: fatal: can only run as pid 1" issue
+
 # 1.7.0
 
 * Update base image

@@ -1,6 +1,6 @@
 {
     "name": "Vzduch Dotek",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "slug": "vzduch_dotek",
     "description": "Vzduch Dotek Api",
     "arch": [ "amd64" ],
@@ -8,6 +8,7 @@
     "webui": "http://[HOST]:[PORT:5353]/api/aircons",
     "startup": "application",
     "boot": "auto",
+    "init": false,
     "ports": {
         "5353/tcp": 5353
     },
