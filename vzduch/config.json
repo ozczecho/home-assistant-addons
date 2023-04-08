@@ -1,6 +1,6 @@
 {
     "name": "Vzduch Dotek",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "slug": "vzduch_dotek",
     "description": "Vzduch Dotek Api",
     "arch": [ "amd64" ],
