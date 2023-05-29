@@ -1,3 +1,7 @@
+# 1.9.0
+
+* Fix Setting Logging Level
+
 # 1.8.1
 
 * Update Vzduch Build
