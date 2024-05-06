@@ -1,6 +1,6 @@
 {
     "name": "Vzduch Dotek",
-    "version": "1.9.1",
+    "version": "2.0.0",
     "slug": "vzduch_dotek",
     "description": "Vzduch Dotek Api",
     "arch": [ "amd64" ],
@@ -16,12 +16,12 @@
         "5353/tcp": "Web Api"
     },
     "options": {
-        "airtouch_ip": "192.168.80.21",
+        "airtouch_host": "192.168.80.21",
         "airtouch_port": 8899,
         "logLevel": "Information"
     },
     "schema": {
-        "airtouch_ip": "str",
+        "airtouch_host": "str",
         "airtouch_port": "int",
         "logLevel": "str"
     }

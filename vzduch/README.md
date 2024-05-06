@@ -15,6 +15,7 @@
 ## Configuration
 
 The following configuration options are available via the addon UI
-* `airtouch_ip` - the ip address of the AirTouch 3 Controller
+
+* `airtouch_host` - the host address of the AirTouch 3 Controller
 * `airtouch_port` - the port number of the AirTouch 3 Controller (In most cases this should be `8899`)
 * `logLevel` - set the logging level. If addon is running as expected keep at `Informational`, otherwise use `Verbose` to get detailed logs.
