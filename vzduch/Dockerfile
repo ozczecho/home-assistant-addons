@@ -15,7 +15,7 @@ RUN wget -O vzduch.tar.xz https://github.com/ozczecho/vzduch-dotek/archive/refs/
 WORKDIR /usr/src/vzduch-dotek-"${VZDUCH_VERSION}"
 
 RUN dotnet restore
-RUN dotnet publish -c release -o /app -r linux-x64 --self-contained true --no-restore /p:PublishTrimmed=true /p:PublishSingleFile=true
+RUN dotnet publish -c release -o /app -r linux-x64 --self-contained true --no-restore /p:PublishTrimmed=false /p:PublishSingleFile=false
 
 # final stage/image
 FROM $BUILD_FROM
